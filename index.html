@@ -8,14 +8,14 @@
     <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
     <script src="https://kit.fontawesome.com/d8274c4654.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="escuro">
     <header><nav id="menu">
         <ul>
-            <li><a href="#"><i class="fa-solid fa-house-fire"></i></a></li>
-            <li><a href="#"><i class="fa-solid fa-screwdriver-wrench"></i></a></li>
-            <li><a href="#"><i class="fa-solid fa-user-graduate"></i></a></li>
-            <li><a href="#"><i class="fa-solid fa-paste"></i></a></li>
-            <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
+            <li><a href="#ficha" class="link"><i class="fa-solid fa-house-fire"></i></a></li>
+            <li><a href="#skills" class="link"><i class="fa-solid fa-screwdriver-wrench"></i></a></li>
+            <li><a href="#formacao" class="link"><i class="fa-solid fa-user-graduate"></i></a></li>
+            <li><a href="#projetos" class="link"><i class="fa-solid fa-paste"></i></a></li>
+            <li><a href="#" class="link" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
         </ul>
     </nav>
 
@@ -257,13 +257,13 @@
                     </div>
                     
                     <div class="curso">
-                        <p class="periodo">2024 - Atualmente</p>
+                        <p class="periodo">2025 - Atualmente</p>
                         <h3 class="Instituicao">Udemy</h3>
                         <p class="descricao">Engenharia front-end</p>
                     </div>
 
                     <div class="curso">
-                        <p class="periodo">2024 - Atualmente</p>
+                        <p class="periodo">2025 - Atualmente</p>
                         <h3 class="Instituicao">Curso em Video</h3>
                         <p class="descricao">Cursos em geral</p>
                 </div>
@@ -274,20 +274,70 @@
 
             <article id="projetos">
                 <h2><i class="fa-solid fa-paste"></i> Meus projetos</h2>
+                <div id="projeto-container">
+                    <div class="projeto"> <!-- Projeto 01  -->
+                        <img src="imagens/projeto-03-android.jpg" alt="Projeto 1" class="foto">
+                        <a href="https://hjromano.github.io/projeto-android/" target="_blank">Acesse aqui</a>
+                        <div class="projeto-info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projeto Android</h3>
+                            <p>Projeto do curso em video.</p>
+                            <details class="descricao">
+                                <summary>Ver mais</summary>
+                                <p>Projeto desenvolvido durante o curso de desenvolvimento Android do Curso em Vídeo. Este projeto abrange os conceitos fundamentais do desenvolvimento de aplicativos Android, incluindo a criação de interfaces de usuário intuitivas, gerenciamento de atividades e navegação entre telas. O aplicativo finalizado demonstra a aplicação prática dos conhecimentos adquiridos ao longo do curso, proporcionando uma experiência interativa e funcional para os usuários.</p>
+                            </details>
 
+                        </div>
+
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 02  -->
+                        <img src="imagens/projeto-02-cordel.jpg" alt="Projeto 2" class="foto">
+                        <a href="https://hjromano.github.io/projeto-cordel/" target="_blank">Acesse aqui</a>
+                        <div class="projeto-info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Cordel</h3>
+                            <p>Projeto do curso em video.</p>
+                            <details class="descricao">
+                                <summary>Ver mais</summary>
+                                <p>Projeto desenvolvido durante o curso de HTML e CSS do Curso em Vídeo. Este projeto consiste em uma página web que apresenta um cordel, utilizando técnicas de layout responsivo e estilização com CSS. O objetivo é demonstrar a aplicação prática dos conceitos aprendidos no curso, incluindo a estruturação semântica do HTML e a estilização avançada com CSS, proporcionando uma experiência visualmente agradável e funcional para os usuários.</p>
+                            </details>
+
+                        </div>
+                    </div>
+                    <div class="projeto"> <!-- Projeto 03  -->
+                        <img src="imagens/rede.jpg" alt="Projeto 3" class="foto">
+                        <a href="https://hjromano.github.io/projeto-social/" target="_blank">Acesse aqui</a>
+                        <div class="projeto-info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Rede Social</h3>
+                            <p>Projeto do curso em video.</p>
+                            <details class="descricao">
+                                <summary>Ver mais</summary>
+                                <p>Projeto desenvolvido durante o curso de HTML e CSS do Curso em Vídeo. Este projeto consiste em uma página web que apresenta uma rede social, utilizando técnicas de layout responsivo e estilização com CSS. O objetivo é demonstrar a aplicação prática dos conceitos aprendidos no curso, incluindo a estruturação semântica do HTML e a estilização avançada com CSS, proporcionando uma experiência visualmente agradável e funcional para os usuários.</p>
+                            </details>
+
+                        </div>
+                    </div>
+                    <div class="projeto"> <!-- Projeto 04  -->
+                        <img src="imagens/login.jpg" alt="Projeto 4" class="foto">
+                        <a href="https://hjromano.github.io/projeto-login/" target="_blank">Acesse aqui</a>
+                        <div class="projeto-info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Tela de login</h3>
+                            <p>Projeto do curso em video.</p>
+                            <details class="descricao">
+                                <summary>Ver mais</summary>
+                                <p>Projeto desenvolvido durante o curso de HTML e CSS do Curso em Vídeo. Este projeto consiste em uma página web que apresenta uma tela de login, utilizando técnicas de layout responsivo e estilização com CSS. O objetivo é demonstrar a aplicação prática dos conceitos aprendidos no curso, incluindo a estruturação semântica do HTML e a estilização avançada com CSS, proporcionando uma experiência visualmente agradável e funcional para os usuários.</p>
+                            </details>
+                        </div>
+                </div>
             </article> <!-- Fim article#projetos  -->
-
         </section>
-
     </main>
-
     <footer>
-
-
+        <p>© 2025 Higor Romano. Todos os direitos reservados.</p>
     </footer>
-
-    <script src="scripts/script.js"></script>
-
-    
+    <script src="scripts/script.js"></script>   
 </body>
 </html>
