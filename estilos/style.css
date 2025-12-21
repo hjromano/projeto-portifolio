@@ -11,7 +11,7 @@
 * {
     margin: 0;
     padding: 0;
-   box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 :root {
@@ -36,8 +36,8 @@ body {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    line-height: 1.5em;
    background-color: var(--fundo-principal);
-    color: var(--texto);
-    transition: background-color 0.3s, color 0.3s;
+   color: var(--texto);
+   transition: background-color 0.3s, color 0.3s;
 }
 
 
@@ -98,7 +98,7 @@ section#ficha img {
   outline: 5px solid var(--destaque);
   display: block;
   margin: auto;
-  margin-bottom: 15px;;
+  margin-bottom: 15px;
 }
 
 section#ficha h1 {
